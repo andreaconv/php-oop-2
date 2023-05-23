@@ -6,7 +6,8 @@ class Product {
   private $category;
   private $price;
 
-  function __construct($_name){
+  //voglio un solo valore obbligatorio che è il nome del prodotto
+  function __construct($_name,){
     $this->setName($_name);
   }
 
