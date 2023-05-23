@@ -19,9 +19,12 @@ class Toys extends Product {
   }
 
   // GETTER
-  public function getCharacteristics(){
+  public function getPrimaStr(){
     return $this->characteristics;
   }
+  // public function getCharacteristics(){
+  //   return $this->characteristics;
+  // }
   public function getSize(){
     return $this->size;
   }

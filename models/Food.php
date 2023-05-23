@@ -19,9 +19,12 @@ class Food extends Product {
   }
 
   // GETTER
-  public function getWeight(){
+  public function getPrimaStr(){
     return $this->weight;
   }
+  // public function getWeight(){
+  //   return $this->weight;
+  // }
   public function getIngredients(){
     $string = '';
     foreach ($this->ingredients as $ingredient){

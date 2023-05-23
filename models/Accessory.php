@@ -19,9 +19,12 @@ class Accessory extends Product {
   }
 
   // GETTER
-  public function getMaterial(){
+  public function getPrimaStr(){
     return $this->material;
   }
+  // public function getMaterial(){
+  //   return $this->material;
+  // }
   public function getSize(){
     return $this->size;
   }
