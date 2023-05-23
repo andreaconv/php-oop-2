@@ -4,6 +4,7 @@ include 'models/Product.php';
 
 //passo un solo valore nelle parentesi perchè nella classe del prodotto il metodo __construct richiede un solo valore
 $newProduct = new Product('nome prodotto');
+$newProduct->setCategory('cani');
 
 var_dump($newProduct);
 
