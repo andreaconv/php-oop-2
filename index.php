@@ -1,12 +1,12 @@
 <?php
 
-include 'models/Product.php';
+include 'models/Food.php';
 
-//passo un solo valore nelle parentesi perchè nella classe del prodotto il metodo __construct richiede un solo valore
-$newProduct = new Product('nome prodotto');
-$newProduct->setCategory('cani');
+$croccantini = new Food('Royal Canin');
+$croccantini->setWeight('545');
+$croccantini->setIngredients('Prosciutto, Riso');
 
-var_dump($newProduct);
+var_dump($croccantini);
 
 
 ?>
