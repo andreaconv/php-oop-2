@@ -9,3 +9,4 @@ $croccantini->setCategory('Cane');
 //setWeight() è un metodo del CIBO
 $croccantini->setWeight('3000');
 $croccantini->setIngredients('Agnello, Cereali Integrali');
+$listProducts[] = $croccantini;
