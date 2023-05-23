@@ -1,13 +1,24 @@
 <?php
 
 include 'models/Food.php';
+include 'models/Accessory.php';
 
+//aggiungo un prodotto di tipo CIBO
 $croccantini = new Food('Royal Canin');
+//setCategory() è un metodo dei PRODOTTI
 $croccantini->setCategory('Cani');
+//setWeight() è un metodo del CIBO
 $croccantini->setWeight('545');
 $croccantini->setIngredients('Prosciutto, Riso');
 
+//aggiungp un prodotto di tipo ACCESSORIO
+$voliera = new Accessory('Voliera Wilma');
+$voliera->setCategory('Uccelli');
+$voliera->setMaterial('Legno');
+$voliera->setSize('M: L 83 x P 67 x H153 cm');
+
 var_dump($croccantini);
+var_dump($voliera);
 
 
 ?>
