@@ -23,6 +23,10 @@ class Food extends Product {
     return $this->weight;
   }
   public function getIngredients(){
-    return $this->ingredients;
+    $string = '';
+    foreach ($this->ingredients as $ingredient){
+      $string .= $ingredient . ' ';
+    }
+    return $string;
   }
 }

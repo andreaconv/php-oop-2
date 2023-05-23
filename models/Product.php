@@ -33,7 +33,11 @@ class Product {
     return $this->image;
   }
   public function getCategory(){
-    return $this->category;
+    $string = '';
+    foreach ($this->category as $item){
+      $string .= $item . ' ';
+    }
+    return $string;
   }
   public function getPrice(){
     return $this->price;
