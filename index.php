@@ -3,6 +3,7 @@
 include 'models/Food.php';
 
 $croccantini = new Food('Royal Canin');
+$croccantini->setCategory('Cani');
 $croccantini->setWeight('545');
 $croccantini->setIngredients('Prosciutto, Riso');
 
